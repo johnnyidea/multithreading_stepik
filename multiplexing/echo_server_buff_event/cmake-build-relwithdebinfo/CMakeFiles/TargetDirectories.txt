@@ -1,3 +1,0 @@
-/home/rene/education/multithreading_stepik/multiplexing/echo_server_buff_event/cmake-build-relwithdebinfo/CMakeFiles/rebuild_cache.dir
-/home/rene/education/multithreading_stepik/multiplexing/echo_server_buff_event/cmake-build-relwithdebinfo/CMakeFiles/edit_cache.dir
-/home/rene/education/multithreading_stepik/multiplexing/echo_server_buff_event/cmake-build-relwithdebinfo/CMakeFiles/echo_server_buff_event.dir
