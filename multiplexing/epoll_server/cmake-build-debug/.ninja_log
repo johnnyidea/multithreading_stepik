@@ -1,0 +1,5 @@
+# ninja log v5
+0	360	1648059921617700901	CMakeFiles/server_epoll.dir/server.cpp.o	be645888d470d6b1
+361	406	1648059921661034179	server_epoll	aa64edae11580665
+0	357	1648060077164181381	CMakeFiles/server_epoll.dir/server.cpp.o	be645888d470d6b1
+357	405	1648060077210847994	server_epoll	aa64edae11580665
