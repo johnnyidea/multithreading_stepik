@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="fifo_out" targetName="fifo_out" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43974f1a-63cd-42da-9a9c-2d081c9bd950" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../active_users_num/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../active_users_num/user_num.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../client_server/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../client_server/client" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../client_server/client.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../client_server/server.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../client_server_geeks_for_geeks/socket_app/client/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../client_server_geeks_for_geeks/socket_app/client/client_app.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../client_server_geeks_for_geeks/socket_app/server/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../client_server_geeks_for_geeks/socket_app/server/server_app.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../introduction/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../introduction/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/chat_server/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/chat_server/server.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/echo_server_buff_event/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/echo_server_buff_event/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/echo_server_buff_event/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/echo_server_buff_event/server.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/epoll_server/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/epoll_server/server.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/poll_server/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/poll_server/server.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/select_server/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/select_server/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../multiplexing/select_server/server.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.3" />
+  </component>
+  <component name="ProjectId" id="27O6lLNWvDYLx4dVhInm9fSHWFt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fifo_out" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fifo_out" TARGET_NAME="fifo_out" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fifo_out" RUN_TARGET_NAME="fifo_out">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43974f1a-63cd-42da-9a9c-2d081c9bd950" name="Changes" comment="" />
+      <created>1649178936639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649178936639</updated>
+      <workItem from="1649178937836" duration="577000" />
+      <workItem from="1649179569127" duration="772000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
