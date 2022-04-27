@@ -232,6 +232,9 @@ int main()
         exit(EXIT_FAILURE);
     }
     //-------------------------------------------------------------------------
+    for (int i = 0; i < 4; i++)
+        pthread_join(threads[i],NULL);
+
 
     return 0;
 }
