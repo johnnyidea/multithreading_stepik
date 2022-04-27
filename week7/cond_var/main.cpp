@@ -14,15 +14,7 @@ struct MutexCond
 
 void* func_cond(void* args)
 {
-    auto mtx_cnd = (struct MutexCond *)args;
-
-//    if (pthread_barrier_wait(&mtx_cnd->barrier) != 0)
-//    {
-//        perror("barrier wait th 0");
-//        exit(EXIT_FAILURE);
-//    }
-//
-//    std::cout << "Barrier thread 0 reached" << std::endl;
+    MutexCond* mtx_cnd = static_cast<MutexCond *>(args);
 
     if (pthread_mutex_lock(&mtx_cnd->mtx) != 0)
     {
@@ -45,26 +37,33 @@ void* func_cond(void* args)
 
     std::cout << "Success wait cond" << std::endl;
 
+    if (pthread_barrier_wait(&mtx_cnd->barrier) != 0)
+    {
+//        perror("barrier wait th 0");
+//        exit(EXIT_FAILURE);
+    }
+
+    std::cout << "Barrier thread 0 reached" << std::endl;
 
     printf("Returning thread\n");
 
-    return NULL;
+    pthread_exit(nullptr);
 }
 
 void* func_barrier(void* args)
 {
-    auto mtx_cnd = (struct MutexCond *)args;
+    MutexCond* mtx_cnd = static_cast<MutexCond *>(args);
 
     int bar_val;
     if (bar_val = pthread_barrier_wait(&mtx_cnd->barrier) != 0)
     {
-//        perror("barrier wait th1");
-//        exit(EXIT_FAILURE);
+        perror("barrier wait th1");
+        exit(EXIT_FAILURE);
     }
 
     std::cout << "Barrier thread 1 reached" << std::endl;
 
-    return NULL;
+    pthread_exit(nullptr);
 }
 
 int main()
@@ -82,7 +81,7 @@ int main()
         exit(EXIT_FAILURE);
     }
 
-    pthread_barrier_init(&mutex_cond.barrier, NULL, 1);
+    pthread_barrier_init(&mutex_cond.barrier, NULL, 2);
 
     if (pthread_create(&threads[0], NULL, func_cond, (void*)&mutex_cond) < 0)
     {
@@ -95,25 +94,22 @@ int main()
         perror("thread barrier is not created");
         exit(EXIT_FAILURE);
     }
-
-    sleep(1);
-
-
-
-    if (pthread_barrier_destroy(&mutex_cond.barrier) != 0)
-    {
-        perror("barrier destroy");
-        exit(EXIT_FAILURE);
-    }
-
     if (pthread_cond_signal(&mutex_cond.cond) != 0)
     {
         perror("failed to send cond sig");
         exit(EXIT_FAILURE);
     }
 
-    for (int i = 0; i < 2; i++)
-        pthread_join(threads[i],NULL);
+    sleep(1);
+//
+    if (pthread_barrier_destroy(&mutex_cond.barrier) != 0)
+    {
+        perror("barrier destroy");
+        exit(EXIT_FAILURE);
+    }
+
+//    for (int i = 0; i < 2; i++)
+//        pthread_join(threads[1],NULL);
 
     return 0;
 }
